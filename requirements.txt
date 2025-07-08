@@ -8,3 +8,4 @@ langchain_google_genai
 pdf2image
 pytesseract
 langdetect
+langchain_community
