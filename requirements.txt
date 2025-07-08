@@ -5,3 +5,6 @@ PyPDF2
 faiss-cpu
 langchain
 langchain_google_genai
+pdf2image
+pytesseract
+langdetect
