@@ -48,8 +48,8 @@ def pdf_to_text(pdf_docs):
 # Text splitting
 def get_text_chunks(text):
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=10000,
-        chunk_overlap=1000,
+        chunk_size=2000,
+        chunk_overlap=200,
         length_function=len
     )
     return splitter.split_text(text)
